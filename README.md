@@ -10,4 +10,6 @@ Filter Month: January
 
 This notebook was created for startupML challenge 2017
 
+Please keep in mind that I only used 2-fold cross validation to save time. Best estimate is given my leave-one-out cross validation. Which uses all samples for training except one sample for validation and repeats for each sample. Unfortunately it is very expensive. Usually 10-fold cv is recommended. So as long as system and time allows go for as many folds as you can afford.
+
 Author: Muaaz Bin Sarfaraz
